@@ -51,10 +51,9 @@ class TEALoss(nn.Module):
             z_trait: Latent trait embeddings ``z_T``.
             z_emotion: Latent emotion embeddings ``z_E``.
             z_motion: Latent motion embeddings ``z_M``.
-            trait_indices: Optional subset of indices corresponding to set ``S``
-                in Eq. (12). If ``None`` the full batch is used.
+            trait_indices: Optional subset of indices corresponding to set ``S``. If ``None`` the full batch is used.
             emotion_indices: Optional subset of indices corresponding to set
-                ``S'`` in Eq. (12).
+                ``S'``.
         Returns:
             Dictionary containing individual terms and the combined loss.
         """

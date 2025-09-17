@@ -22,7 +22,7 @@ def compute_total_loss(
     lambda_tea: float = 1.0,
     lambda_trait: float = 1.0,
 ) -> ObjectiveBreakdown:
-    """Combine the individual terms following Eq. (15)."""
+    """Combine the individual terms"""
 
     tea_term = lambda_tea * tea_output.total
     trait_term = lambda_trait * trait_loss

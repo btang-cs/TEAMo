@@ -7,7 +7,7 @@ from torch import nn
 
 
 class AdaptiveConditionFusion(nn.Module):
-    """Implements the learnable modality weighting described in Eq. (4)-(5)."""
+    """Implements the learnable modality weighting"""
 
     def __init__(self, modalities: Iterable[str], dim: int) -> None:
         super().__init__()

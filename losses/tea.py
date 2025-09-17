@@ -19,7 +19,7 @@ class TEALossOutput:
 
 
 class TEALoss(nn.Module):
-    """Trait-Emotion-Action loss as defined in Eqs. (12)-(14)."""
+    """Trait-Emotion-Action loss"""
 
     def __init__(
         self,
